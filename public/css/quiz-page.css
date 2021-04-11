@@ -1,0 +1,44 @@
+#code-by-arpit {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+.candidate-det-sec {
+  height: max-content;
+  width: 100%;
+  background: rgb(37, 227, 97);
+  background: linear-gradient(
+    90deg,
+    rgba(37, 227, 97, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+.candidate-info {
+  margin-left: 20vw;
+}
+#lang-sel-dropdown {
+  width: 10rem;
+  padding: 0.5em;
+}
+.exam-lang-choose {
+  float: right;
+  position: relative;
+  top: -4em;
+  right: 10rem;
+  /* background: rgb(37,227,97);
+    background: linear-gradient(90deg, rgba(37,227,97,1) 0%, rgba(0,212,255,1) 100%); 
+    */
+}
+#body-cont-que {
+  height: 90vh;
+}
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 0.05em;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
