@@ -1,0 +1,77 @@
+* {
+  margin: 0%;
+  padding: 0;
+}
+.header {
+  background-color: white;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+.logo-container,
+.nav-container {
+  margin: 1em;
+  margin-bottom: 0px;
+}
+.logo-container a img {
+  width: 270px;
+  height: 90px;
+}
+.nav-container ul li {
+  list-style: none;
+  float: left;
+  margin: 1em;
+}
+.nav-container a {
+  border-radius: 6px;
+  border: 1px solid rgb(60, 161, 60);
+  color: black;
+  padding: 10px;
+  transition: 0.5s all ease;
+}
+.nav-container a:hover {
+  text-decoration: none;
+  background-color: rgb(4, 179, 179);
+  color: white;
+}
+.right-side-para-container {
+  margin: 1em;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 20px;
+}
+.big-heading {
+  margin-bottom: 1em;
+  font-weight: bolder;
+  font-size: 2em;
+  font-family: "Zilla Slab Highlight", cursive;
+}
+.landing-container {
+  display: flex;
+  height: max-content;
+}
+.promo-img-vid {
+  padding: 3em;
+}
+.right-side-para-container {
+  padding: 2em;
+  margin-left: 0em;
+}
+
+.login {
+  text-align: center;
+  background: whitesmoke;
+  padding: 4em 0;
+  margin: 1em 0;
+  height: min-content;
+}
+.login button {
+  margin: 1em;
+  /* padding: 0.5cm ; */
+}
+.login button a {
+  text-decoration: none;
+  color: white;
+  padding: 0 2em;
+  font-size: 1cm;
+  display: block;
+}
