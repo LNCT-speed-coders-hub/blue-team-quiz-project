@@ -57,18 +57,30 @@
   margin-left: 0em;
 }
 
+ <<<<<<< main
 .loginH {
+=======
+.login {
+ >>>>>>> main
   text-align: center;
   background: whitesmoke;
   padding: 4em 0;
   margin: 1em 0;
   height: min-content;
 }
+ <<<<<<< main
 .loginH button {
   margin: 1em;
   /* padding: 0.5cm ; */
 }
 .loginH button a {
+=======
+.login button {
+  margin: 1em;
+  /* padding: 0.5cm ; */
+}
+.login button a {
+ >>>>>>> main
   text-decoration: none;
   color: white;
   padding: 0 2em;
