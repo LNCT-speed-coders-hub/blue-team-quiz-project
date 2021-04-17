@@ -1,26 +1,13 @@
 import react from "react";
+import Footer from "./Footer";
+import Header from "./Header";
 import {Link} from "react-router-dom";
 
 function Home(){
     return (
 
         <div>
-          <header>
-            <div className="header">
-              <div className="logo-container">
-                <a href="/"><img src="/img/NTA_logo.png" alt="Quiz Website" /></a>
-              </div>
-              <div className="nav-container">
-                <ul>
-                <li>  <Link to="/">Home</Link></li>
-              
-                  <li>  <Link to="/login">Login</Link></li>
-                  
-                  <li><a href="#">Help(FAQs)</a></li>
-                </ul>
-              </div>
-            </div>
-          </header>
+        <Header />
           <hr />
           <div className="landing-container">
             <div className="promo-img-vid">
@@ -40,12 +27,12 @@ function Home(){
           </div>
           <div className="loginH">
             <h3>Check Your Skills | Login To Account &amp; Take the Test</h3>
+            <Link to="/login">
             <button type="button" className="btn btn-primary btn-lg"><a href="/login.html">Login Now </a></button>
+            </Link>
           </div>
-          <footer>
-            {/* -----------add footer Here using ejs file------------ */}
-            {/* -------------Already Present in Quiz page -----------  */}
-          </footer>
+       <Footer />
+          
         </div>
       );
     
